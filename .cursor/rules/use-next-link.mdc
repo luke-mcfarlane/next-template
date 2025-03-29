@@ -1,0 +1,6 @@
+---
+description: 
+globs: src/app/*.tsx,src/components/*.tsx
+alwaysApply: false
+---
+always use `Link from "next/link"` when creating links

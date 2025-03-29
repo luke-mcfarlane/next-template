@@ -1,12 +1,8 @@
-import type { Config } from "drizzle-kit";
-
-import { env } from "@/env";
-
 export default {
-	schema: "./src/server/db/schema.ts",
-	dialect: "mysql",
+	schema: "./src/db/schema.ts",
+	out: "./migrations",
+	dialect: "postgresql",
 	dbCredentials: {
-		url: env.DATABASE_URL,
+		url: process.env.DATABASE_URL,
 	},
-	tablesFilter: ["create-t3-app_*"],
-} satisfies Config;
+};

@@ -11,9 +11,12 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
+			"correctness": {
+				"noUnusedImports": "error"
+			},
 			"nursery": {
 				"useSortedClasses": {
-					"level": "warn",
+					"level": "error",
 					"fix": "safe",
 					"options": {
 						"functions": ["clsx", "cva", "cn"]

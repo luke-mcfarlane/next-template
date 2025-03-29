@@ -1,0 +1,6 @@
+---
+description: 
+globs: src/components/*.tsx,src/app/*.tsx
+alwaysApply: false
+---
+when creating forms always use react-hook-forms and zod

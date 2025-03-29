@@ -1,0 +1,6 @@
+---
+description: 
+globs: src/components/*.tsx,src/app/*.tsx
+alwaysApply: false
+---
+always use react-query when fetching or mutating data client side

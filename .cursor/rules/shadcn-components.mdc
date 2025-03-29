@@ -1,0 +1,7 @@
+---
+description: 
+globs: src/app/*.tsx,src/components/*.tsx
+alwaysApply: false
+---
+- always use shadcn components where possible
+- install shadcn components using `pnpm dlx shadcn@latest add <component-name>`
